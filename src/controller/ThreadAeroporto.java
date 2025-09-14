@@ -26,6 +26,7 @@ public class ThreadAeroporto extends Thread{
 				System.out.println("Aviao #" + aviao + " iniciou manobra.");
 				tempoEtapa(300, 700);	// etapa manobra
 				System.out.println("Aviao #" + aviao + " finalizou manobra.");
+				
 				System.out.println("Aviao #" + aviao + " iniciou taxiação.");
 				tempoEtapa(500, 1000);	// etapa taxiar
 				System.out.println("Aviao #" + aviao + " finalizou taxiação.");	
